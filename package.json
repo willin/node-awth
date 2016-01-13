@@ -4,7 +4,7 @@
   "description": "A node auth midware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --bail"
   },
   "author": "Willin Wang",
   "repository": {
@@ -14,6 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "express": "^4.13.3",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
     "restify": "^4.0.3"
   }
 }

@@ -2,6 +2,7 @@
 *.log
 
 .idea/
-origin/
+coverage/
 node_modules/
+origin/
 
