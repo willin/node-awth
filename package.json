@@ -1,0 +1,19 @@
+{
+  "name": "awth",
+  "version": "0.0.1",
+  "description": "A node auth midware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willin Wang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willin/node-awth.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "restify": "^4.0.3"
+  }
+}
